@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Perfect – Lightning-Fast Image Library</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!--<link href="assets/bootstrap5_1_3/css/bootstrap.min.css" type="text/css" rel="stylesheet" />-->
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+            rel="stylesheet">
+            <style>
+            body {
+            font-family: 'Inter', sans-serif;
+            }
+            .hero {
+            padding: 80px 0 0 0;
+            text-align: center;
+            }
+            .hero img {
+            max-width: 700px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 0 40px rgba(0,0,0,0.6);
+            }
+            .feature-icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+            }
+            footer {
+            padding: 40px 0;
+            text-align: center;
+            opacity: 0.7;
+            }
+             @media (max-width: 768px) {
+                /* Styles for screens 768px wide and below (e.g., phones) */
+               #carouselAutoplaying{
+                height: 350px !important;
+               }
+            }
+            </style>
+    </head>
+    <body style="padding: 10px;">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-dark bg-dark border-bottom border-secondary">
+            <div class="container">
+                <a class="navbar-brand fw-semibold" target="_blank" href="https://github.com/BitForgeCraftedCode/ImagePerfect">Image Perfect</a>
+                <div>
+                    <a class="btn btn-outline-light btn-sm"
+                        href="https://github.com/BitForgeCraftedCode/ImagePerfect"
+                        target="_blank">
+                        ⭐ Star on GitHub
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- HERO -->
+        <section class="hero container">
+            <h1 class="display-4 fw-bold">Image Perfect</h1>
+            <p class="lead mb-4">
+                A lightning-fast, privacy-first image library built for massive photo collections.
+                Scan, browse, tag, and organize photos with zero cloud, zero lock-in, and zero lag —
+                on Windows or Linux.
+            </p>
+            <a class="btn btn-primary btn-lg mb-4"
+                href="https://github.com/BitForgeCraftedCode/ImagePerfect/releases/latest"
+                target="_blank">
+                ⬇ Download Beta Release
+            </a>
+            <br>
+            <!-- Hero Screenshot Placeholder -->
+            
+            <div id="carouselAutoplaying" class="carousel slide mx-auto" style="max-width: 1000px; height: 450px;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"  data-bs-interval="6000">
+                        <img src="assets/img/AppScreenShotImageView2025-12-02.png" class="d-block w-100 mx-auto" style="max-width: 800px;" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="assets/img/AppScreenShotFolderView2025-12-02.png" class="d-block w-100 mx-auto" style="max-width: 800px;" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="assets/img/AppScreenShotImageCloseUp2025-12-02.png" class="d-block w-100 mx-auto" style="max-width: 450px;" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="assets/img/AppScreenShotFolderCloseUp2025-12-02.png" class="d-block w-100 mx-auto" style="max-width: 360px;" alt="...">
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+                
+            </div>
+            
+        </section>
+       
+        <!-- FEATURES SECTION -->
+        <section class="container my-5">
+            <h2 class="text-center fw-semibold mb-5">Key Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">⚡</div>
+                    <h5 class="fw-semibold">Blazing Fast Metadata Scanning</h5>
+                    <p>Optimized parallel scanning designed for <strong>huge libraries</strong>.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">🔍</div>
+                    <h5 class="fw-semibold">Powerful Searching & Tagging</h5>
+                    <p>Add tags and ratings to images and folders, filter, and navigate large collections effortlessly.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">🖼️</div>
+                    <h5 class="fw-semibold">Local & Private</h5>
+                    <p>No cloud, no uploads, no tracking.<br/>Your entire library lives on your machine &#8212; exactly where it belongs.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">📁</div>
+                    <h5 class="fw-semibold">Folder-Based Organization</h5>
+                    <p>Manage your folder structure directly inside the app: move, delete, re-organize, and set cover images with full file-system mirroring.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">📸</div>
+                    <h5 class="fw-semibold">Shotwell Import Support</h5>
+                    <p>Reads Shotwell-written metadata (tags + ratings) so you can migrate cleanly on Linux.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">💻 🐧</div>
+                    <h5 class="fw-semibold">Cross-Platform</h5>
+                    <p>Runs on Windows and Ubuntu/Linux, backed by .NET 8 and Avalonia UI.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">📦</div>
+                    <h5 class="fw-semibold">Standard Formats</h5>
+                    <p>Supports JPEG, PNG, and GIF, with fast loading and large previews.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">🧭</div>
+                    <h5 class="fw-semibold">Clean Modern Interface</h5>
+                    <p>A responsive UI that stays fast even with large directories.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">🖼️</div>
+                    <h5 class="fw-semibold">Large Thumbnails</h5>
+                    <p>True large previews &#8212; from 400px up to 600px &#8212; without writing thumbnails to disk.</p>
+                </div>
+                
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="text-secondary">
+            <p>© 2025 Image Perfect &#8212; Free and Open Source • Built by BitForgeCraftedCode</p>
+            <p><a class="text-decoration-none text-light" href="https://github.com/BitForgeCraftedCode/ImagePerfect" target="_blank">GitHub Repository</a></p>
+        </footer>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <!--<script src="assets/bootstrap5_1_3/js/bootstrap.bundle.min.js"></script>-->
+    </body>
+</html>
